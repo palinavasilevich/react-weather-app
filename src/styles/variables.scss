@@ -1,0 +1,21 @@
+:root {
+  --main-theme: #fa6d1b;
+}
+
+:root[data-theme="light"] {
+  --background-color: #f6f6f8;
+  --text-color: #242d49;
+  --block-background-color: #f6f6f8;
+  --card-background-color: #fff;
+  --card-box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 12px;
+  --input-background-color: rgba(255, 255, 255, 0.64);
+}
+
+:root[data-theme="dark"] {
+  --background-color: linear-gradient(rgb(3, 16, 39) 0%, rgb(2, 16, 29) 100%);
+  --text-color: #f5f6f7;
+  --block-background-color: #051a33;
+  --card-background-color: rgba(46, 49, 56, 0.51);
+  --card-box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 12px;
+  --input-background-color: rgba(46, 49, 56, 0.51);
+}

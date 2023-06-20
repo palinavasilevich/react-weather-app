@@ -1,0 +1,52 @@
+.forecast {
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  // // overflow-x: scroll;
+  // overflow-x: hidden;
+  // scroll-snap-type: x mandatory;
+}
+
+// .forecast::-webkit-scrollbar {
+//   height: 12px;
+// }
+
+// .forecast::-webkit-scrollbar-thumb,
+// .forecast::-webkit-scrollbar-track {
+//   border-radius: 92px;
+// }
+
+// .forecast::-webkit-scrollbar-thumb {
+//   background: var(--main-theme);
+// }
+
+// .forecast::-webkit-scrollbar-track {
+//   background: rgba(110, 110, 110, 0.25);
+// }
+
+.card {
+  // margin: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--text-color);
+  background: var(--card-background-color);
+
+  box-shadow: var(--card-box-shadow);
+  border-radius: 0.5rem;
+
+  .dayOfWeek {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: var(--main-theme);
+  }
+
+  img {
+    width: 48px;
+    height: 48px;
+  }
+}
